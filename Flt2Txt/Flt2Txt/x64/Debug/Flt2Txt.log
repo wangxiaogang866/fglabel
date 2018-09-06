@@ -1,0 +1,25 @@
+﻿生成启动时间为 2018/8/13 16:28:50。
+     1>项目“F:\Codes_labeling\Flt2Txt\Flt2Txt\Flt2Txt.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\Flt2Txt.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\VS2010\VC\bin\x86_amd64\CL.exe /c /ID:\MATLAB\R2013a\extern\include /ID:\MATLAB\R2013a\bin /ID:\MATLAB\R2013a\extern\include\win64 /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _USE_MATH_DEFINES /D NOMINMAX /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt GetTXTsOfModel.cpp main_get_txts.cpp
+         main_get_txts.cpp
+         GetTXTsOfModel.cpp
+     1>GetTXTsOfModel.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+         Generating Code...
+       Link:
+         E:\VS2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes_labeling\Flt2Txt\x64\Debug\Flt2Txt.exe" /NOLOGO mclmcrrt.lib mclmcr.lib libmx.lib libmex.lib libeng.lib OpenThreadsd.lib osgd.lib osgDBd.lib osgUtild.lib osgGAd.lib osgViewerd.lib osgTextd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Flt2Txt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes_labeling\Flt2Txt\x64\Debug\Flt2Txt.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes_labeling\Flt2Txt\x64\Debug\Flt2Txt.lib" /MACHINE:X64 x64\Debug\GetTXTsOfModel.obj
+         x64\Debug\main_get_txts.obj
+         LINK : 没有找到 F:\Codes_labeling\Flt2Txt\x64\Debug\Flt2Txt.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Flt2Txt.vcxproj -> F:\Codes_labeling\Flt2Txt\x64\Debug\Flt2Txt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes_labeling\Flt2Txt\x64\Debug\Flt2Txt.exe;#1" /manifest x64\Debug\Flt2Txt.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\Flt2Txt.unsuccessfulbuild”。
+         正在对“x64\Debug\Flt2Txt.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Codes_labeling\Flt2Txt\Flt2Txt\Flt2Txt.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.91
