@@ -16,20 +16,20 @@ You can download the data [here](http://www.zbuaa.com/sa2018/data.rar).
 
 
 ## 0, Flt2Txt: Process models (.flt) into '.txt' files. 
-   cd .../Code/Flt2Txt/Flt2Txt
-   main_get_txts.cpp
-   And the output '.txt' files include the following:
-        points.txt:  all vertices of model
-        faces.txt: all faces of model
-        groups.txt: all components of model
+   cd .../Code/Flt2Txt/Flt2Txt\
+   main_get_txts.cpp\
+   And the output '.txt' files include the following:\
+        points.txt:  all vertices of model\
+        faces.txt: all faces of model\
+        groups.txt: all components of model\
         parts.txt: all semantic parts of model (only for groundtruth model)
 
 ## 1, Txt2Mats:  Transform  '.txt' file into '.mat' file
-   cd .../Code/Txt2Mats
-   Generating_mat_from_Txts.m 
-   And the output .mat file include the following:
-        model.vertices: all vertices of input model
-        model.groups: all components of input model (faces of each component)
+   cd .../Code/Txt2Mats\
+   Generating_mat_from_Txts.m\
+   And the output .mat file include the following:\
+        model.vertices: all vertices of input model\
+        model.groups: all components of input model (faces of each component)\
         model.Vertex: all components of input model (vertices of each component)
 
 ## 2, Caffe Network Training: Training Network   
