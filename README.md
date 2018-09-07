@@ -71,7 +71,7 @@ You can download the data [here](http://www.zbuaa.com/sa2018/data.rar).
 
 ## 4, Composite_inference:  Higher-order CRF optimization
    cd .../Code/Composite_inference\
-   Batching_adjust_para.m\  
+   Batching_adjust_para.m\
    The output .txt file model is the final labelling result, that assigning a semantic label for each component.
 
 
