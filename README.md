@@ -80,3 +80,19 @@ You can download the data [here](http://www.zbuaa.com/sa2018/data.rar).
    main.cpp
    input: labeling result（step 4： .txt file）,  original model (.flt or .obj model)
    output: image with different color for different labels.
+
+
+## Citation
+
+If you find our paper useful in your research, please cite:
+
+@article {wang_siga18,
+     title = {Learning to Group and Label Fine-Grained Shape Components},
+    author = {Xiaogang Wang and Bin Zhou and Haiyue Fang and Xiaowu Chen and Qinping Zhao and Kai Xu},
+    journal = {ACM Transactions on Graphics (SIGGRAPH Asia 2018)},
+    volume = {37},
+    number = {6},
+    pages = {to appear},
+    year = {2018}
+}
+
